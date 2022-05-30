@@ -1,3 +1,9 @@
+# TF Ellyson Website
+
+The home of Task Force Ellyson, the heart of Artificial Intelligence in the NAE.
+
+Check out the architecture of the website [here](./ARCHITECTURE.md).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
