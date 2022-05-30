@@ -1,0 +1,34 @@
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+}
+
+.Footer a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.Footer:hover a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.Footer-item {
+    position:relative
+}
+
+.Footer-item::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: rgb(40, 130, 204);
+    width: 0%;
+    bottom: -2px;
+    left: 0;
+}
+
+.Footer-item:hover::before {
+    width: 100%;
+}
