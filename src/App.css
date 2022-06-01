@@ -2,6 +2,11 @@ body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(238, 255, 0);
+}
+
 .App {
   text-align: center;
   color: white;
@@ -34,5 +39,5 @@ body {
 }
 
 .App-content {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 6rem;    /* Footer height */
 }

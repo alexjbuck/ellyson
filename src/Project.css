@@ -1,0 +1,10 @@
+.project {
+    text-align: left;
+    padding: .25rem 2rem;
+    border: 1px solid #333;
+    margin: .5rem 10%;
+}
+
+.project:hover {
+    border: 1px solid #fff;
+}
