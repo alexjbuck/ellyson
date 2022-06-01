@@ -10,9 +10,10 @@ import Projects from "./pages/Projects";
 import Resources from "./pages/Resources";
 
 function App() {
+  console.log(process.env.PUBLIC_URL)
   return (
     <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Navbar />
             <div className="App-content">
               <Routes>
