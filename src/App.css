@@ -7,6 +7,12 @@ a {
   color: rgb(238, 255, 0);
 }
 
+a:hover {
+  color: goldenrod;
+}
+
+
+
 .App {
   text-align: center;
   color: white;
@@ -40,4 +46,12 @@ a {
 
 .App-content {
   padding-bottom: 6rem;    /* Footer height */
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-right: 40px;
 }
